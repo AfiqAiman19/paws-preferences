@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws & Preferences</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <h1>Paws & Preferences</h1>
+    <p class="subtitle">Swipe right to like, swipe left to dislike</p>
+  </header>
+
+  <main class="container">
+    <section id="deck" class="deck" aria-label="Cat cards">
+    </section>
+
+    <section class="controls" aria-label="Actions">
+      <button id="btnDislike" class="btn btn--ghost" type="button">👎 Dislike</button>
+      <button id="btnLike" class="btn" type="button">👍 Like</button>
+    </section>
+
+    <section id="status" class="status" aria-live="polite"></section>
+
+    <section id="summary" class="summary hidden" aria-label="Summary">
+      <h2>Summary</h2>
+      <p id="summaryText"></p>
+
+      <div id="likedGrid" class="grid" aria-label="Liked cats gallery"></div>
+
+      <button id="btnRestart" class="btn btn--secondary" type="button">Restart</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Images from Cataas</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
