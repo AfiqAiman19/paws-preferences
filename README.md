@@ -4,7 +4,7 @@ A simple swipe-based web application to discover cat preferences.
 Users can swipe right to like or left to dislike, inspired by common mobile interaction patterns.
 
 ## 🔗 Live Demo
-https://YOUR-USERNAME.github.io/paws-preferences/
+https://afiqaiman19.github.io/paws-preferences/
 
 ## ✨ Features
 - Swipe right to like, left to dislike
